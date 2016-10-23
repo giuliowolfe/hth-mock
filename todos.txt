@@ -12,8 +12,8 @@ but not rendering data into the page yet)
 9. deloyed it to heroku: https://hthmock.herokuapp.com/
   in its current state:
   a. the homepage lists the current "labs" (fake labs).
-  b. you can click on the lab and it goes to its own lab page. You can add '&formet=json' at the end of the url to see the raw json showing the keys and value pair.
-  c. to create a new lab you have to actually go to: https://hthmock.herokuapp.com/createlab , and input the information and click submit which sends to the mongoDB. This is not protected yet (see below todos).
+  b. you can click on the lab and it goes to its own lab page. You can add '&formet=json' at the end of the url to see the raw json showing the keys and value pair. (15. Nice start! I tried to add '&formet=json' at the end of the url, but nothing changed)
+  c. to create a new lab you have to actually go to: https://hthmock.herokuapp.com/createlab , and input the information and click submit which sends to the mongoDB. This is not protected yet (see below todos). (16. I also tried the form, looks neat as basic wire!)
 
 
 To-Dos:
@@ -32,6 +32,6 @@ To-Dos:
 GC:
 I want them to see those 2 options, where the Toolbox allow immediate access
 to the content, while the Labs link opens a sign up/ sign in page as you need
-to be registered to create a lab.
+to be registered to create a lab. 
 
 
